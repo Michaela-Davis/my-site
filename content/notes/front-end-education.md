@@ -12,6 +12,7 @@ Here's some resources for learning Front End Web Development:
 ## Theory
 
 - [Hardboiled Web Design Fifth Anniversary Edition](https://stuffandnonsense.co.uk/buy/hardboiledwebdesign) by Andy Clarke
+- [css-architecture: 8 simple rules for a robust, scalable CSS architecture](https://github.com/jareware/css-architecture)
 
 ### Atomic Design
 
