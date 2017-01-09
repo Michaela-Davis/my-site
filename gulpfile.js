@@ -129,7 +129,10 @@ function sh(cmd, exitOnError, cb) {
 }
 
 function reload() {
-  sh(`./node_modules/.bin/browser-sync reload --port=${themeConfig.browserSync.port}`, false);
+  sh(
+    `./node_modules/browser-sync/bin/browser-sync.js reload --port=${themeConfig.browserSync.port}`,
+    false
+  );
 }
 
 function buildPl(done) {
